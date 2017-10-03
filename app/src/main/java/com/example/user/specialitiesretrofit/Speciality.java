@@ -1,21 +1,12 @@
 package com.example.user.specialitiesretrofit;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
-
 /**
  * Created by user on 21.09.2017.
  */
 
 public class Speciality {
-    @SerializedName("id")
-    @Expose
     private int id;
-    @SerializedName("name")
-    @Expose
     private String name;
-    @SerializedName("href")
-    @Expose
     private String href;
 
     public Speciality(int id, String name, String href) {
